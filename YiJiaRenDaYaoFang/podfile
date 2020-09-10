@@ -1,0 +1,11 @@
+platform :ios, '8.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://amiba.fun/Ardura/AMBSpecs.git'
+#source 'https://github.com/jadynJT/YSMSpecs.git'
+
+target 'YiJiaRenDaYaoFang' do
+pod 'AMBCategories'
+pod 'AMBNetworkRequest'
+pod 'MyPodsTest'
+end
