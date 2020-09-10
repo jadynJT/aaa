@@ -433,6 +433,7 @@
 		18F2F0F6222D1D560051131A /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F2F0F3222D1D560051131A /* libWeChatSDK.a */; };
 		18F2F0F7222D1D560051131A /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F2F0F3222D1D560051131A /* libWeChatSDK.a */; };
 		9F7A7CD9A2F4B6945CAA14DB /* libPods-YiJiaRenDaYaoFang.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3BC3AC6A0A488765A17D800 /* libPods-YiJiaRenDaYaoFang.a */; };
+		D9140332250A0F2C00408896 /* XXXTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9140331250A0F2C00408896 /* XXXTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -778,6 +779,8 @@
 		18F2F0F3222D1D560051131A /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
 		2736103A13332DC68655CF3B /* Pods-YiJiaRenDaYaoFang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YiJiaRenDaYaoFang.release.xcconfig"; path = "Target Support Files/Pods-YiJiaRenDaYaoFang/Pods-YiJiaRenDaYaoFang.release.xcconfig"; sourceTree = "<group>"; };
 		D3BC3AC6A0A488765A17D800 /* libPods-YiJiaRenDaYaoFang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YiJiaRenDaYaoFang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9140330250A0F2C00408896 /* XXXTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXXTableViewCell.h; sourceTree = "<group>"; };
+		D9140331250A0F2C00408896 /* XXXTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXXTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1517,6 +1520,8 @@
 				187169C01FF5E99C00C418C8 /* MainVC.xib */,
 				186EB291200F1D2300CDB9BD /* 慢病会员 */,
 				186EB29F200F1D2300CDB9BD /* 血压测量 */,
+				D9140330250A0F2C00408896 /* XXXTableViewCell.h */,
+				D9140331250A0F2C00408896 /* XXXTableViewCell.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -2155,6 +2160,7 @@
 				18716A221FF5E99C00C418C8 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				18716A271FF5E99C00C418C8 /* UIWebView+AFNetworking.m in Sources */,
 				187169FE1FF5E99C00C418C8 /* CustomSegControl.m in Sources */,
+				D9140332250A0F2C00408896 /* XXXTableViewCell.m in Sources */,
 				18716A3E1FF5E99C00C418C8 /* QRCodeReaderView.m in Sources */,
 				187169F41FF5E99C00C418C8 /* BluetoothDataParseHelper.m in Sources */,
 				18222D7C213D14240005E320 /* WKWebViewJavascriptBridge.m in Sources */,
