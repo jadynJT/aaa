@@ -40,6 +40,10 @@
     return self;
 }
 
+- (void)aaa {
+    NSLog(@"设置添加");
+}
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
