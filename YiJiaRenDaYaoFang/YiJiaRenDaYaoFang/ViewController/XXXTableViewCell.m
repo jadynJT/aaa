@@ -57,6 +57,10 @@
     NSLog(@"遴选1");
 }
 
+- (void)eee {
+    NSLog(@"遴选2");
+}
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
