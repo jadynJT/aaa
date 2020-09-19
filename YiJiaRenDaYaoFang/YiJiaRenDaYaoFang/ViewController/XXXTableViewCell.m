@@ -52,6 +52,11 @@
     NSLog(@"设置添加3");
 }
 
+// 遴选1
+- (void)ddd {
+    NSLog(@"遴选1");
+}
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
