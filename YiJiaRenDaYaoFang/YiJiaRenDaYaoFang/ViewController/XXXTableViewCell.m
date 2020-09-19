@@ -40,6 +40,22 @@
     return self;
 }
 
+- (void)aaa {
+    NSLog(@"设置添加");
+}
+
+- (void)bbb {
+    NSLog(@"设置添加2");
+}
+
+- (void)ccc {
+    NSLog(@"设置添加3");
+}
+
+- (void)ddd {
+    NSLog(@"设置添加4");
+}
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
