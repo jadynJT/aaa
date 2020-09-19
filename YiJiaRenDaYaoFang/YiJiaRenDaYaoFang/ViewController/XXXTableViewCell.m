@@ -52,10 +52,6 @@
     NSLog(@"设置添加3");
 }
 
-- (void)ddd {
-    NSLog(@"设置添加4");
-}
-
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 
